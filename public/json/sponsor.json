@@ -48,6 +48,14 @@
     "image": "tezos.png"
   },
   {
+    "name": "COSCUP",
+    "slug": "coscup",
+    "url": "https://coscup.org/",
+    "description": "COSCUP 是由台灣開放原始碼社群聯合推動的研討會，希望藉由每一屆的年度會議，讓全球的 FLOSS 愛好者齊聚一堂。無論您是開放原始碼的開發者、推廣者、使用者、還是想了解軟體的新手，都歡迎您來參加開源人年會。",
+    "level": "level-2",
+    "image": "coscup.png"
+  },
+  {
     "name": "ZUSO Generation",
     "slug": "zuso",
     "url": "https://zuso.ai/",
