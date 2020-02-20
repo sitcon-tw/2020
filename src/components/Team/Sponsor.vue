@@ -33,6 +33,7 @@
         <div :class="`card-container ${level === 'holder' ? 'host-container' : 'org-container'}`">
           <div
             v-for="sponsor in sponsorList[level]"
+            :id="sponsor.slug"
             :key="sponsor.slug"
             :class="[
               `card ${level === 'holder' ? 'host' : 'org'}`,

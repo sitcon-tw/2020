@@ -3,7 +3,6 @@
     <div 
       v-for="sponsor in sponsors"
       :key="`sponsor-${sponsor.slug}`"
-      :id="sponsor.slug"
       class="sponsor"
       target="_blank"
       rel="noopener"
