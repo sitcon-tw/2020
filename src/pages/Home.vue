@@ -9,7 +9,7 @@
       <div class="inner-container">
         <h1 class="title font-black">SITCON 2020</h1>
         <h2 class="subtitle font-black">學生計算機年會</h2>
-        <h3 class="keywords font-black">#define student</h3>
+        <h3 class="keywords"><a class="font-black" href="#call-for-define">#define student</a></h3>
       </div>
     </header>
     <div class="info">
@@ -45,7 +45,7 @@
         </h1>
         <p class="content">學生計算機年會（Students’ Information Technology Conference）自 2013 年發起，以學生為本、由學生自發舉辦，長期投身學生資訊教育與推廣開源精神，希望引領更多學子踏入資訊的殿堂，更冀望所有對資訊有興趣的學生，能夠在年會裏齊聚一堂，彼此激盪、傳承、啟發，達到「學以致用、教學相長」的實際展現。</p>
         <p class="content">二十一世紀已經過了五分之一，今年，我們期待帶著豐沛熱情的你，能和我們一起在 2020 年這麼一個「承先啟後」的年份，綜觀不同領域發展與事件脈絡，自主學習感興趣之專長與技術，彼此分享、相濡以沫。在 SITCON 2020 裡，願所有與會者皆能拓展視野，鍛鍊與發展自我，找到向前邁步的勇氣與目標。相信身為學生的我們，也將能重新定義自我、定義未來！</p>
-        <p class="content">SITCON 2020 邀請身為學生的你，向大家分享您的經驗與技術，期待您能在演講桌前，與我們一起 <a href="https://sitcon.org/2020/cfp#call-for-define" target="_blank" rel="noopener">#define student</a>。</p>
+        <p class="content">SITCON 2020 邀請身為學生的你，向大家分享您的經驗與技術，期待您能在演講桌前，與我們一起 <a href="#call-for-define">#define student</a>。</p>
       </div>
       <div
         id="call-for-define"
