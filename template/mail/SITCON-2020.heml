@@ -112,7 +112,7 @@
           <p class="paragraph font-bold bigger">Hi {{ nickname }}，</p>
           <p class="paragraph">若您無法順利閱讀此信件，請參閱 <a href="https://sitcon.org/2020/mail/SITCON-2020.html" target="_blank"
               rel="noopener noreferrer">線上版本</a>。</p>
-          <p class="paragraph">很高興能在 SITCON 2019 看到你！年會即將在本週日（3/24）揭開序幕，我們特別整理了一些實用的資訊，還請詳細閱讀：</p>
+          <p class="paragraph">很高興能在 SITCON 2020 看到你！年會即將在本週六（3/28）揭開序幕，我們特別整理了一些實用的資訊，還請詳細閱讀：</p>
         </block>
         <block class="content">
           <h1 class="title font-bold"><span>一、交通</span></h1>
