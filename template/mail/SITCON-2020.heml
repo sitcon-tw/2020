@@ -20,6 +20,7 @@
 
       img.signature {
         margin: 64px auto;
+        height: 128px;
       }
 
       .content {
