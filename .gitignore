@@ -22,3 +22,6 @@ yarn-error.log*
 
 # Auto-Generated OPass Session Json
 /public/json/session.json
+
+# Auto-Generated Mail
+/public/mail/*
