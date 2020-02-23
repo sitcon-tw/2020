@@ -1,76 +1,187 @@
 <heml>
+
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <subject>SITCON 2020 行前信</subject>
-    <preview>很高興能在 SITCON 2020 看到你！年會即將在本週六（3/28）揭開序幕，我們特別整理了一些實用的資訊，還請詳細閱讀；為始活動報到順利，請先行下載安裝「SITCON 通關」App — 若您無法順利閱讀此信件，請參閱線上版本：https://sitcon.org/2020/mail/SITCON-2020.html</preview>
+    <subject>SITCON 2020 行前通知信</subject>
+    <preview>很高興能在 SITCON 2020 看到你！年會即將在本週六（3/28）揭開序幕，我們特別整理了一些實用的資訊，還請詳細閱讀；為始活動報到順利，請先行下載安裝「SITCON 通關」App —
+      若您無法順利閱讀此信件，請參閱線上版本：https://sitcon.org/2020/mail/SITCON-2020.html</preview>
     <base href="https://sitcon.org/2020/mail/">
+    <style>
+      div.container {
+        padding: 16px;
+        width: calc(100% - 16px * 2);
+      }
+
+      img.banner {
+        width: 100%;
+        margin-bottom: 32px;
+      }
+
+      img.signature {
+        margin: 64px auto;
+      }
+
+      .content {
+        margin: 24px 0;
+      }
+
+      h1.title,
+      h2.subtitle,
+      p.paragraph,
+      a,
+      span {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        letter-spacing: 0.5pt;
+        color: #000000;
+      }
+
+      h1.title {
+        display: inline-block;
+        padding: 7px 18px;
+        border-radius: 8px;
+        background-color: #000000;
+        color: #ffffff;
+        font-size: 24px;
+        transform-origin: 0% 100%;
+        transform: skewX(-15deg);
+      }
+
+      h1.title>span {
+        display: inline-block;
+        color: inherit;
+        font: inherit;
+        transform: skewX(15deg);
+      }
+
+      h2.subtitle {
+        display: inline-block;
+        position: relative;
+        margin: 32px 0 8px 0;
+        padding: 0 12px 0 24px;
+        font-size: 20px;
+        background-color: #D5D5D5;
+        border-radius: 0 12px 0 0;
+        transform-origin: 100% 0%;
+        transform: skewX(15deg);
+      }
+
+      h2.subtitle > span {
+        display: inline-block;
+        color: inherit;
+        font: inherit;
+        transform: translate(0, -12px) skewX(-15deg);
+      }
+
+      p.paragraph,
+      a,
+      span {
+        line-height: 1.6;
+        font-size: 14px;
+      }
+
+      .bigger {
+        font-size: 18px;
+      }
+
+      .font-bold {
+        font-weight: 500;
+      }
+
+      .font-black {
+        font-weight: 700;
+      }
+
+      a,
+      span.highlight {
+        color: #77B55A;
+      }
+
+      span.highlight {
+        font-size: 18px;
+      }
+    </style>
   </head>
+
   <body>
     <container class="container">
-      <img class="top" src="./assets/mailHead.png" infer="retina" />
+      <img class="banner top" src="./assets/mailHead.png" infer="retina" />
       <block class="wrapper">
         <block class="content">
-          <p class="paragraph font-bold">Hi {{ nickname }}，</p>
-          <p class="paragraph">若您無法順利閱讀此信件，請參閱 <a href="https://sitcon.org/2020/mail/SITCON-2020.html" target="_blank" rel="noopener noreferrer">線上版本</a>。</p>
+          <p class="paragraph font-bold bigger">Hi {{ nickname }}，</p>
+          <p class="paragraph">若您無法順利閱讀此信件，請參閱 <a href="https://sitcon.org/2020/mail/SITCON-2020.html" target="_blank"
+              rel="noopener noreferrer">線上版本</a>。</p>
           <p class="paragraph">很高興能在 SITCON 2019 看到你！年會即將在本週日（3/24）揭開序幕，我們特別整理了一些實用的資訊，還請詳細閱讀：</p>
         </block>
         <block class="content">
-          <h1 class="title font-black">一、交通</h1>
-          <p class="paragraph">年會地點位於中央研究院人文社會科學館 ( 台北市南港區研究院路二段 128 號），詳細位置及交通方式可參考 <a href="https://sitcon.org/2020/traffic" target="_blank" rel="noopener noreferrer">SITCON 2020 官方網站</a> 或中研院院區圖。</p>
+          <h1 class="title font-bold"><span>一、交通</span></h1>
+          <p class="paragraph">年會地點位於中央研究院人文社會科學館（台北市南港區研究院路二段 128 號），詳細位置及交通方式可參考 <a
+              href="https://sitcon.org/2020/traffic" target="_blank" rel="noopener noreferrer">SITCON 2020 官方網站</a>
+            或中研院院區圖。</p>
         </block>
         <block class="content">
-          <h1 class="title font-black">二、報到</h1>
+          <h1 class="title font-bold"><span>二、報到</span></h1>
           <p class="paragraph">年會將於早上 8 點半開始報到，並於 9 點準時開始。在到達會場後，連上年會現場的 Wi-Fi，即可用「OPass」App 進行報到，並到會場四樓領取迎賓袋。</p>
           <p class="paragraph">請透過以下專屬連結下載、啟動 OPass：</p>
-          <p class="paragraph"><a href="{{ App Link }}" class="font-bold" target="_blank" rel="noopener noreferrer">{{ App Link }}</a></p>
+          <p class="paragraph"><a href="{{ App Link }}" class="font-bold" target="_blank"
+              rel="noopener noreferrer">{{ App Link }}</a></p>
           <p class="paragraph">（若您無法使用 App 報到，請向報到櫃檯的工作人員出示您 KKTIX 的報到用 QR Code）</p>
           <p class="paragraph">請注意：迎賓袋內有您的識別證，必須領取並且配戴後才能進入會議廳內。持有學生票的朋友，也請於抵達領取攤位前備妥學生證或相關證明，以節省您寶貴的時間。</p>
           <p class="paragraph">10:00 後才完成報到者，恕不提供便當。</p>
         </block>
         <block class="content">
-          <h1 class="title font-black">三、活動</h1>
+          <h1 class="title font-bold"><span>三、活動</span></h1>
           <p class="paragraph">除了一整天精彩的議程，今年的 SITCON 也有許多有趣的活動可以參加！不論是抓緊機會表現自己，或是想在年會認識新朋友，都千萬別錯過囉。</p>
-          <h2 class="subtitle font-bold">紀念品販售</h2>
+          <h2 class="subtitle font-black"><span>紀念品販售</span></h2>
           <p class="paragraph">今年會製作小石刺繡布章與神秘紙膠帶，同時也會有小石金屬徽章、SITCON 鑰匙圈、SITCON 紀念 T-shirt 與 SITCON 提袋等，歡迎大家來把小石帶回家～</p>
-          <h2 class="subtitle font-bold">SITCON 導遊團</h2>
+          <h2 class="subtitle font-black"><span>SITCON 導遊團</span></h2>
           <p class="paragraph">第一次參加研討會，總覺得眼花撩亂嗎？年會當天中午，有經驗的導遊們將帶大家拜訪工作人員、講者、社群攤位，實地了解 SITCON 的運作方式以及與會的各路夥伴！</p>
           <p class="paragraph">有興趣參加 SITCON 導遊團的朋友，可以在下午 2 點 20 分及 2 點 30 分到服務台現場報名，共有兩團，每次導覽約 30 分鐘。</p>
-          <h2 class="subtitle font-bold">Lightning Talk</h2>
-          <p class="paragraph">Lightning Talk 中文譯為「閃電秀」，顧名思義即為「閃電一般短的演講」。有什麼想展現給全場所有人的技術、想法、甚至經驗談，都能把握這短短的 3 分鐘，在 SITCON 2020 的大舞台上讓大家看見你！</p> 
+          <h2 class="subtitle font-black"><span>Lightning Talk</span></h2>
+          <p class="paragraph">Lightning Talk 中文譯為「閃電秀」，顧名思義即為「閃電一般短的演講」。有什麼想展現給全場所有人的技術、想法、甚至經驗談，都能把握這短短的 3 分鐘，在 SITCON
+            2020 的大舞台上讓大家看見你！</p>
           <p class="paragraph">Lightning Talk 安排於年會閉幕前，於國際會議廳 (R0) 進行。當天上午 10:00 後會在 3F 白板區開放報名，名額有限、先搶先贏。</p>
-          <h2 class="subtitle font-bold">真．實境矩陣</h2>
-          <p class="paragraph">SITCON 的參與者來自各地，今年更有來自多國、身懷絕技的業界與社群夥伴共襄盛舉。除了把握時間好好與他們聊聊外，據說每個攤位都隱藏了不為人知的秘密……？別忘了在年會當天打開 OPass「真．實境矩陣」，讓不同攤位的高手和你的 QR Code 能量連結，就有機會兌換限量年會紀念品。連接你的節點，拯救我們的世界！ヽ(✿ﾟ▽ﾟ)ノ</p>
+          <h2 class="subtitle font-black"><span>真．實境矩陣</span></h2>
+          <p class="paragraph">SITCON 的參與者來自各地，今年更有來自多國、身懷絕技的業界與社群夥伴共襄盛舉。除了把握時間好好與他們聊聊外，據說每個攤位都隱藏了不為人知的秘密……？別忘了在年會當天打開
+            OPass「真．實境矩陣」，讓不同攤位的高手和你的 QR Code 能量連結，就有機會兌換限量年會紀念品。連接你的節點，拯救我們的世界！ヽ(✿ﾟ▽ﾟ)ノ</p>
         </block>
         <block class="content">
-          <h1 class="title font-black">四、共筆與議程線上討論區</h1>
-          <p class="paragraph">今年年會延續往年傳統，為各議程開設「共筆」與「議程線上討論區（Sli.do）」，共筆供聽眾一起編輯議程筆記，議程線上討論區則供講者與各位聽眾進行即時交流。各連結將公告於年會官方網站與 OPass。您可以在議程中隨時使用議程線上討論區匿名提問，講者能自由選擇時間解答及互動。籌辦團隊雖開設此平台，但並非強制所有與會者及講者必須使用，僅供各位利用參考。</p>
+          <h1 class="title font-bold"><span>四、共筆與議程線上討論區</span></h1>
+          <p class="paragraph">
+            今年年會延續往年傳統，為各議程開設「共筆」與「議程線上討論區（Sli.do）」，共筆供聽眾一起編輯議程筆記，議程線上討論區則供講者與各位聽眾進行即時交流。各連結將公告於年會官方網站與
+            OPass。您可以在議程中隨時使用議程線上討論區匿名提問，講者能自由選擇時間解答及互動。籌辦團隊雖開設此平台，但並非強制所有與會者及講者必須使用，僅供各位利用參考。</p>
         </block>
         <block class="content">
-          <h1 class="title font-black">五、食物</h1>
+          <h1 class="title font-bold"><span>五、食物</span></h1>
           <p class="paragraph">為了讓大家能愉快的交流，年會為各位準備了午餐與各式點心。會議廳內皆禁止飲食，只能帶有蓋水瓶進出，還請各位多多配合了 (´・ω・`)</p>
-          <h2 class="subtitle font-bold">午餐</h2>
-          <p class="paragraph">美味的午餐將從 <span class="highlight">上午 11 點 50 分</span> 開始，於 4F 國際會議廳（R0）後方兩側的轉角處發放；素食則在 3F 服務台領取，請各位不要跑錯囉！</p>
-          <h2 class="subtitle font-bold">點心</h2>
-          <p class="paragraph"><span class="highlight">下午 3 點</span> 開始，四樓兩側的社群攤位走廊上將提供精緻茶點，您可以在享用下午茶的同時，與現場的會眾以及攤位交流。</p>
+          <h2 class="subtitle font-black"><span>午餐</span></h2>
+          <p class="paragraph">美味的午餐將從 <span class="highlight">上午 11 點 50 分</span> 開始，於 4F 國際會議廳（R0）後方兩側的轉角處發放；素食則在 3F
+            服務台領取，請各位不要跑錯囉！</p>
+          <h2 class="subtitle font-black"><span>點心</span></h2>
+          <p class="paragraph"><span class="highlight">下午 3 點</span> 開始，四樓兩側的社群攤位走廊上將提供精緻茶點，您可以在享用下午茶的同時，與現場的會眾以及攤位交流。
+          </p>
         </block>
         <block class="content">
-          <h1 class="title font-black">六、網路</h1>
+          <h1 class="title font-bold"><span>六、網路</span></h1>
           <p class="paragraph">現場可使用年會提供的無線網路，SSID 為「SITCON 2020」，密碼是「20200328」。</p>
           <p class="paragraph">請勿於會場私自架設無線基地台（AP），或進行任何干擾公眾網路之行為。</p>
           <p class="paragraph">若您需要使用個人 4G 行動網路熱點，請使用 USB 或藍芽方式分享網路連線。</p>
         </block>
         <block class="content">
-          <h1 class="title font-black">其他注意事項</h1>
-          <p class="paragraph">年會當天的線上聊天室十分精彩，您可以和其他與會者抬槓、甚至找到志同道合的夥伴！除了加入 Telegram <a href="https://t.me/SITCONgeneral" target="_blank" rel="noopener noreferrer">@SITCONgeneral</a> 群組以外，也可以透過你熟悉的軟體連上 IRC #sitcon@freenode.net 頻道；若您自己有製作名片，別忘了帶來和大家交朋友喔。</p>
-          <p class="paragraph">最後，也請您務必閱讀並一同遵守 <a href="https://sitcon.org/code-of-conduct/" target="_blank" rel="noopener noreferrer">SITCON 行為準則</a>，讓大家都能開心的在 SITCON 齊聚一堂，彼此激盪、傳承、啟發。</p>
+          <h1 class="title font-bold"><span>其他注意事項</span></h1>
+          <p class="paragraph">年會當天的線上聊天室十分精彩，您可以和其他與會者抬槓、甚至找到志同道合的夥伴！除了加入 Telegram <a href="https://t.me/SITCONgeneral"
+              target="_blank" rel="noopener noreferrer">@SITCONgeneral</a> 群組以外，也可以透過你熟悉的軟體連上 IRC #sitcon@freenode.net
+            頻道；若您自己有製作名片，別忘了帶來和大家交朋友喔。</p>
+          <p class="paragraph">最後，也請您務必閱讀並一同遵守 <a href="https://sitcon.org/code-of-conduct/" target="_blank"
+              rel="noopener noreferrer">SITCON 行為準則</a>，讓大家都能開心的在 SITCON 齊聚一堂，彼此激盪、傳承、啟發。</p>
           <p class="paragraph">感謝您讀完這份行前簡介，期待在 SITCON 2020 看到你囉！</p>
         </block>
         <block class="content">
           <p class="paragraph">SITCON 2020 籌備團隊</p>
-          <img src="./assets//signature.png" class="center" alt="" />
+          <img class="signature" src="./assets//signature.png" alt="" />
         </block>
       </block>
     </container>
   </body>
-  </heml>
+</heml>
