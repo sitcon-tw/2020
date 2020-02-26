@@ -3,7 +3,7 @@
     "name": "SITCON 學生計算機年會籌備團隊",
     "slug": "sitcon",
     "url": "https://hackfoldr.sitcon.org",
-    "description": "SITCON 學生計算機年會 (Students’ Information Technology Conference) 是一個由各校同學於網路串聯發起，鼓勵自發學習、切磋成長的學生社群。\n因為熱愛資訊領域、知道尋找興趣相近夥伴的不容易，籌備團隊從 2013 年以來，便致力於連結對資訊科技相關領域有興趣的學生們，透過每年三月的研討會分享彼此所學，在每週的定期聚交流精進。發展至今，SITCON 除了是東亞最大的學生資訊社群與研討會，各地參與者也藉由夏令營、一小時學程式 (Hour of Code)、黑客松等不同的面向活動，推廣創新、實作、教學相長、以及開源貢獻的精神與理念；在台灣與海外各地，都有 SITCON 參與者的身影。",
+    "description": "SITCON 學生計算機年會 (Students’ Information Technology Conference) 是一個由各校同學於網路串聯發起，鼓勵自發學習、切磋成長的學生社群。\n\n因為熱愛資訊領域、知道尋找興趣相近夥伴的不容易，籌備團隊從 2013 年以來，便致力於連結對資訊科技相關領域有興趣的學生們，透過每年三月的研討會分享彼此所學，在每週的定期聚交流精進。發展至今，SITCON 除了是東亞最大的學生資訊社群與研討會，各地參與者也藉由夏令營、一小時學程式 (Hour of Code)、黑客松等不同的面向活動，推廣創新、實作、教學相長、以及開源貢獻的精神與理念；在台灣與海外各地，都有 SITCON 參與者的身影。",
     "level": "holder",
     "image": "sitcon.png"
   },
@@ -43,7 +43,7 @@
     "name": "Google Developers ",
     "slug": "googledevelopers",
     "url": "https://developers.google.com/community",
-    "description": " Google Developers inspire developers with the possibilities of Google technology.\nWe use a combination of technical advocacy, community & programs, and great docs & content to help developers at scale.",
+    "description": " Google Developers inspire developers with the possibilities of Google technology.\n\nWe use a combination of technical advocacy, community & programs, and great docs & content to help developers at scale.",
     "level": "level-1",
     "image": "google_developers.png"
   },
