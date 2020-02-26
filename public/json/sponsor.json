@@ -64,6 +64,14 @@
     "image": "zuso.png"
   },
   {
+    "name": "趨勢科技",
+    "slug": "trendmicro",
+    "url": "https://careers.trendmicro.tw/",
+    "description": "",
+    "level": "level-3",
+    "image": "trendmicro.png"
+  },
+  {
     "name": "HackMD",
     "slug": "hackmd",
     "url": "https://hackmd.io/",
