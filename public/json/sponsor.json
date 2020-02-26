@@ -40,6 +40,14 @@
     "image": "klickklack.png"
   },
   {
+    "name": "Google Developers ",
+    "slug": "googledevelopers",
+    "url": "https://developers.google.com/community",
+    "description": " Google Developers inspire developers with the possibilities of Google technology.\nWe use a combination of technical advocacy, community & programs, and great docs & content to help developers at scale.",
+    "level": "level-1",
+    "image": "google_developers.png"
+  },
+  {
     "name": "Tezos Southeast Asia",
     "slug": "tezos",
     "url": "https://www.tezos.org.sg/",
