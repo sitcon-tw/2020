@@ -9,15 +9,15 @@
     ]"
   >
     <Navbar v-if="$route.name !== 'CFP' && !isInApp()"/>
+    <Popup
+      :isOpen="isPopup"
+      :content="popupContent"
+    />
     <transition :name="transitionDirect.toLowerCase()">
       <keep-alive>
         <router-view class="transition-group"/>
       </keep-alive>
     </transition>
-    <Popup
-      :isOpen="isPopup"
-      :content="popupContent"
-    />
     <SponsorFooter
       :class="{ 'blur-filter': $route.name === 'Home' }"
     />

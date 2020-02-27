@@ -6,6 +6,7 @@
       :isMobile="isMobile()"
       :isPopup.sync="popUp"
       :popUpSession.sync="popUpSession"
+      :urlPrefix="'https://sitcon.org/2020/agenda'"
     />
   </div>
 </template>
