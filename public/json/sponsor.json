@@ -72,6 +72,14 @@
     "image": "hoholistic.png"
   },
   {
+    "name": "AI Labs",
+    "slug": "ailabs",
+    "url": "https://ailabs.tw/",
+    "description": "台灣人工智慧實驗室致力於醫療、智慧城市、人機介面三大領域的AI發展。我們徵求各方人才，一起為世界定義人工智能的未來體驗。",
+    "level": "level-2",
+    "image": "ailabs.png"
+  },
+  {
     "name": "ZUSO Generation",
     "slug": "zuso",
     "url": "https://zuso.ai/",
