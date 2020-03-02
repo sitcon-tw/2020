@@ -126,5 +126,13 @@
     "description": "",
     "level": "media",
     "image": "linzin.png"
+  },
+  {
+    "name": "Blockchain News",
+    "slug": "blockchainnews",
+    "url": "https://blockchain.news/",
+    "description": "",
+    "level": "media",
+    "image": "blockchainnews.png"
   }
 ]
