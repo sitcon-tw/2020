@@ -88,6 +88,14 @@
     "image": "zuso.png"
   },
   {
+    "name": "台灣 Python 年會",
+    "slug": "pycontw",
+    "url": "https://pycon.tw/",
+    "description": "由台灣社群自發舉辦的年度 Python 交流大會，旨在提供在地與在地、在地與國際間 Python 社群交流的平台。",
+    "level": "level-2",
+    "image": "pycontw.png"
+  },
+  {
     "name": "趨勢科技",
     "slug": "trendmicro",
     "url": "https://careers.trendmicro.tw/",
