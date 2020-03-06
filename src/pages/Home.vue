@@ -16,7 +16,7 @@
       <div class="left-container">
         <div>
           <div>
-            <p class="date font-bold">3/28</p>
+            <p class="date font-bold">8/8</p>
             <p class="location font-bold">中央研究院 — 人文社會科學館</p>
           </div>
         </div>
