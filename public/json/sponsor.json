@@ -91,7 +91,7 @@
     "name": "台灣 Python 年會",
     "slug": "pycontw",
     "url": "https://pycon.tw/",
-    "description": "由台灣社群自發舉辦的年度 Python 交流大會，旨在提供在地與在地、在地與國際間 Python 社群交流的平台。",
+    "description": "台灣 Python 年會（PyCon Taiwan）是由 Python Software Foundation 授權、台灣 Python 社群自發舉辦的年度 Python 交流大會。透過提供在地與在地、在地與國際 Python 社群間交流的平台來回饋台灣 Python 社群。",
     "level": "level-2",
     "image": "pycontw.png"
   },
