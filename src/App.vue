@@ -296,7 +296,9 @@ export default class App extends Vue {
     const announcementId: string = this.$cookies.get('announcement');
 
     if (announcementId !== '9f7f1055-f3ab-4694-8f96-a0a0c47095a2') {
-      this.$router.push({ name: this.$route.name, query: { popUp: 'announcement' } });
+      setTimeout(() => {
+        this.$router.push({ name: this.$route.name, query: { popUp: 'announcement' } });
+      }, 1000);
       this.setAnnouncementCookie();
     }
   }
