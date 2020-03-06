@@ -290,6 +290,9 @@ export default class App extends Vue {
 
   private setAnnouncementCookie (): void {
     this.$cookies.set('announcement', '9f7f1055-f3ab-4694-8f96-a0a0c47095a2', Infinity, '*', 'sitcon.org');
+
+    // Fix Safari
+    this.$cookies.set('announcement', '9f7f1055-f3ab-4694-8f96-a0a0c47095a2', Infinity, '', 'sitcon.org');
   }
 
   private announcementCookieHook (): void {
