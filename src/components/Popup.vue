@@ -50,17 +50,20 @@ export default class Popup extends Vue {
 
   public mounted () {
     this.detectMetaContent();
+
+    window.addEventListener('keyup', this.escHandler);
   }
 
   private closePopup (): void {
-    if (this.$route.name === 'CFP') {
-      this.$router.push({ name: 'CFP', query: {} });
+    this.togglePopupContent('');
+
+    if (this.$route.query.popUp) {
+      this.$router.push({ name: this.$route.name, query: {} });
     } else if (this.$route.name === 'AgendaView') {
       this.$router.push({ name: 'Agenda' });
     }
 
     this.togglePopup(false);
-    this.togglePopupContent('');
   }
 
   private detectMetaContent (): void {
@@ -78,6 +81,12 @@ export default class Popup extends Vue {
         if (metaContent.image) { head.ogImage(metaContent.image); }
         if (metaContent.url) { head.ogUrl(metaContent.url); }
       }
+    }
+  }
+
+    private escHandler (event: any): void {
+    if (event.keyCode === 27 && this.isPopup) {
+      this.closePopup();
     }
   }
 }

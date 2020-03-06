@@ -52,9 +52,9 @@ export default class Agenda extends Vue {
 
   @Watch('isPopup')
   public async onChangePopup (isPopup: boolean) {
-    if (isPopup) {
+    if (isPopup && this.$route.name!.includes('Agenda')) {
       this.$router.push({ name: 'AgendaView', params: { sid: (this.popUpSession as any).id }});
-    } else {
+    } else if (this.$route.name!.includes('Agenda')) {
       this.$router.push({ name: 'Agenda' });
     }
   }
@@ -64,9 +64,10 @@ export default class Agenda extends Vue {
     if (route.name === 'AgendaView') {
       this.processPopup();
       this.togglePopup(true);
-    } else {
+    } else if (route.name === 'Agenda') {
       this.popUp = false;
       this.togglePopup(false);
+      this.togglePopupContent('');
     }
   }
 

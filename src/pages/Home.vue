@@ -23,7 +23,7 @@
       </div>
       <div class="right-container">
         <p class="kktix">
-          <a @click="showAnnouncement()">
+          <a @click="$router.push({ name: 'Home', query: { popUp: 'announcement' } })">
             <span>大會公告</span>
           </a>
           <a href="https://sitcon.kktix.cc/events/sitcon2020" target="_blank" rel="noopener">
@@ -218,9 +218,6 @@ import head from '@/util/head';
 })
 export default class Home extends Vue {
   @Action('toggleTheme', { namespace: 'app' }) private toggleTheme!: (theme: ThemeType) => void;
-  @Action('togglePopup', { namespace: 'app' }) private togglePopup!: (status: boolean) => void;
-  @Action('togglePopupContent', { namespace: 'app' }) private togglePopupContent!: (content: string) => void;
-  @Getter('announcement', { namespace: 'template' }) private announcement!: string;
 
   private sitconTatonMaskHeight: number = 0;
   private sitconTatonMaskWidth: number = 0;
@@ -292,11 +289,6 @@ export default class Home extends Vue {
         // tslint:enable
       }
     }
-  }
-
-  private showAnnouncement (): void {
-    this.togglePopupContent(this.announcement);
-    this.togglePopup(true);
   }
 }
 </script>
