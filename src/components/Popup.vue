@@ -36,6 +36,7 @@ export default class Popup extends Vue {
   @Prop({ required: true }) private content!: string;
 
   @Action('togglePopup', { namespace: 'app' }) private togglePopup!: (status: boolean) => void;
+  @Action('togglePopupContent', { namespace: 'app' }) private togglePopupContent!: (content: string) => void;
   @Action('setPopupOffsetTop', { namespace: 'app' }) private setPopupOffsetTop!: (offset: number) => void;
   @Getter('popupOffsetTop', { namespace: 'app' }) private popupOffsetTop!: number;
   @Getter('isPopup', { namespace: 'app' }) private isPopup!: boolean;
@@ -57,6 +58,9 @@ export default class Popup extends Vue {
     } else if (this.$route.name === 'AgendaView') {
       this.$router.push({ name: 'Agenda' });
     }
+
+    this.togglePopup(false);
+    this.togglePopupContent('');
   }
 
   private detectMetaContent (): void {

@@ -129,6 +129,7 @@
       h1 {
         font-size: 36px;
         margin: 36px 0;
+        font-weight: 700;
 
         @media screen and (max-width: 1024px) {
           font-size: 36px * $zoom-general-mobile-font;
@@ -138,6 +139,7 @@
       h2.subtitle,
       h2 {
         font-size: 24px;
+        font-weight: 500;
 
         @media screen and (max-width: 1024px) {
           font-size: 24px * $zoom-general-mobile-font;
@@ -147,6 +149,8 @@
       p.paragraph,
       p {
         font-size: 18px;
+        line-height: 1.4;
+        margin-bottom: 1rem;
 
         @media screen and (max-width: 1024px) {
           font-size: 18px * $zoom-general-mobile-font;

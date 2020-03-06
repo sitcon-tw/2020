@@ -68,6 +68,7 @@ export default class App extends Vue {
   @Getter('popupContent', { namespace: 'app' }) private popupContent!: string;
   @Getter('sunrise', { namespace: 'sunRiseSunSet' }) private sunrise!: Date;
   @Getter('sunset', { namespace: 'sunRiseSunSet' }) private sunset!: Date;
+  @Getter('announcement', { namespace: 'template' }) private announcement!: string;
   @Getter('submitInfo', { namespace: 'template' }) private submitInfo!: string;
   @Getter('openSubmit', { namespace: 'template' }) private openSubmit!: string;
   @Getter('loudly', { namespace: 'template' }) private loudly!: string;

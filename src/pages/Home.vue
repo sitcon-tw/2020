@@ -23,6 +23,9 @@
       </div>
       <div class="right-container">
         <p class="kktix">
+          <a @click="showAnnouncement()">
+            <span>大會公告</span>
+          </a>
           <a href="https://sitcon.kktix.cc/events/sitcon2020" target="_blank" rel="noopener">
             <span>免費報名</span>
           </a>
@@ -197,7 +200,7 @@
 
 <script lang="ts">
 import { Component, Watch, Vue } from 'vue-property-decorator';
-import { Action } from 'vuex-class';
+import { Action, Getter } from 'vuex-class';
 import axios from 'axios';
 
 import SitconTatonMask from '@/components/SitconTatonMask.vue';
@@ -215,6 +218,10 @@ import head from '@/util/head';
 })
 export default class Home extends Vue {
   @Action('toggleTheme', { namespace: 'app' }) private toggleTheme!: (theme: ThemeType) => void;
+  @Action('togglePopup', { namespace: 'app' }) private togglePopup!: (status: boolean) => void;
+  @Action('togglePopupContent', { namespace: 'app' }) private togglePopupContent!: (content: string) => void;
+  @Getter('announcement', { namespace: 'template' }) private announcement!: string;
+
   private sitconTatonMaskHeight: number = 0;
   private sitconTatonMaskWidth: number = 0;
   private defineString: string = '';
@@ -285,6 +292,11 @@ export default class Home extends Vue {
         // tslint:enable
       }
     }
+  }
+
+  private showAnnouncement (): void {
+    this.togglePopupContent(this.announcement);
+    this.togglePopup(true);
   }
 }
 </script>

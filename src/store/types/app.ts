@@ -29,6 +29,7 @@ export enum ThemeType {
 }
 
 export enum PopupType {
+  ANNOUNCEMENT = 'announcement',
   SUBMIT_INFO = 'submitInfo',
   OPEN_SUBMIT = 'openSubmit',
   LOUDLY = 'loudly'
