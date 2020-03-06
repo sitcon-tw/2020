@@ -88,6 +88,8 @@ export default class App extends Vue {
     window.matchMedia('(prefers-color-scheme: dark)').addListener(async () => {
       await this.detectSystemPrefersColorSchema();
     });
+
+    this.announcementCookieHook();
   }
 
   @Watch('$route')
@@ -283,6 +285,19 @@ export default class App extends Vue {
         break;
 
       default: break;
+    }
+  }
+
+  private setAnnouncementCookie (): void {
+    this.$cookies.set('announcement', '1058fe72-c88e-4ece-826d-c8994ab7251c6', Infinity, '*', 'sitcon.org');
+  }
+
+  private announcementCookieHook (): void {
+    const announcementId: string = this.$cookies.get('announcement');
+
+    if (announcementId !== '1058fe72-c88e-4ece-826d-c8994ab7251c6') {
+      this.$router.push({ name: this.$route.name, query: { popUp: 'announcement' } });
+      this.setAnnouncementCookie();
     }
   }
 }

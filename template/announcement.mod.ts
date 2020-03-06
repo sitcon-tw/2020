@@ -46,7 +46,8 @@ const content: string = `
 {
   "title": "SITCON 2020 籌備團隊公告",
   "description": "年會活動延期至 8 月 8 日舉辦",
-  "url": "https://sitcon.org/2020/cfp?popUp=announcement"
+  "url": "https://sitcon.org/2020/cfp?popUp=announcement",
+  "id": "1058fe72-c88e-4ece-826d-c8994ab7251c"
 }
 </script>
 ${markdown.toHTML(RAWContent)}
