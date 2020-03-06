@@ -289,13 +289,13 @@ export default class App extends Vue {
   }
 
   private setAnnouncementCookie (): void {
-    this.$cookies.set('announcement', '1058fe72-c88e-4ece-826d-c8994ab7251c6', Infinity, '*', 'sitcon.org');
+    this.$cookies.set('announcement', '9f7f1055-f3ab-4694-8f96-a0a0c47095a2', Infinity, '*', 'sitcon.org');
   }
 
   private announcementCookieHook (): void {
     const announcementId: string = this.$cookies.get('announcement');
 
-    if (announcementId !== '1058fe72-c88e-4ece-826d-c8994ab7251c6') {
+    if (announcementId !== '9f7f1055-f3ab-4694-8f96-a0a0c47095a2') {
       this.$router.push({ name: this.$route.name, query: { popUp: 'announcement' } });
       this.setAnnouncementCookie();
     }
