@@ -7,7 +7,7 @@
     "serve:mail": "heml develop template/mail/SITCON-2020.heml",
     "generate:session": "node src/util/session/index.js > public/json/session.json",
     "generate:mail": "heml build template/mail/SITCON-2020.heml --output public/mail/SITCON-2020.html && cp -R template/mail/assets public/mail/",
-    "build": "npm run generate:session && npm run generate:mail && vue-cli-service build && mv ./dist/2020/* ./dist && rm -rf 2020",
+    "build": "npm run generate:session && npm run generate:mail && vue-cli-service build && mv ./dist/2020/* ./dist && rm -rf 2020 && cp ./dist/team/staff.html ./dist/team/index.html && cp ./dist/team/staff.html ./dist/team.html",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
