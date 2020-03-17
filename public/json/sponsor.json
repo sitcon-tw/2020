@@ -96,6 +96,14 @@
     "image": "pycontw.png"
   },
   {
+    "name": "Dcard 狄卡科技",
+    "slug": "dcard",
+    "url": "https://join.dcard.today/",
+    "description": "Dcard 是全台灣最大的匿名社群，我們致力於打造一個讓分享更自由、更讓每個人都能找到共鳴的平台。我們提供的社群服務，目前擁有每個月一千五百萬的不重複訪客與十五億以上的瀏覽量。",
+    "level": "level-2",
+    "image": "dcard.png"
+  },
+  {
     "name": "趨勢科技",
     "slug": "trendmicro",
     "url": "https://careers.trendmicro.tw/",
