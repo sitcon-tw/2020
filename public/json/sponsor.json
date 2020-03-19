@@ -104,6 +104,14 @@
     "image": "dcard.png"
   },
   {
+    "name": "JPTIP 日本人才顧問",
+    "slug": "jptip",
+    "url": "https://www.jptip.com.tw/",
+    "description": "協助日本知名企業在台徵才，提供履歷書修改、面試指導服務。輔導台灣學生申請赴日留遊學或打工度假，協助安排在日住宿地點，提供赴日前日語進修課程。",
+    "level": "level-2",
+    "image": "jptip.png"
+  },
+  {
     "name": "趨勢科技",
     "slug": "trendmicro",
     "url": "https://careers.trendmicro.tw/",
