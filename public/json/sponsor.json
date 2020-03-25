@@ -48,6 +48,14 @@
     "image": "google_developers.png"
   },
   {
+    "name": "社團法人台灣駭客協會",
+    "slug": "hit",
+    "url": "https://www.hacker.org.tw/",
+    "description": "台灣駭客年會 (Hacks In Taiwan Conference, HITCON) 致力於推廣資訊安全，自 2005 年成立迄今亦成立「社團法人台灣駭客協會」(HIT)，透過結合時事來探討全世界的資安議題，引入國內外專業的教育訓練課程，協助政府、企業、民間建立友善的溝通管道與提升培訓資源，引領世界資安技術的脈動，以期臺灣的資安能量更加發光發熱。",
+    "level": "level-1",
+    "image": "hit.png"
+  },
+  {
     "name": "Tezos Southeast Asia",
     "slug": "tezos",
     "url": "https://www.tezos.org.sg/",
