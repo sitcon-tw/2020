@@ -124,9 +124,9 @@ export const routes = [
     ]
   },
   {
-    path: '/sponsor',
+    path: '/team/sponsor',
     name: 'SponsorRedirect',
-    redirect: '/team/sponsor',
+    // redirect: '/team/sponsor',
     meta: {
       label: '贊助',
       menuItem: true
@@ -148,7 +148,9 @@ const router = new Router({
   routes,
   scrollBehavior (to, from, savedPosition) {
     if (to.name === 'CFP' && to.query.popUp && to.hash) {
-      const target = document.querySelector(`.popup-content>${to.hash}`) as HTMLElement;
+      const target = document.querySelector(
+        `.popup-content>${to.hash}`
+      ) as HTMLElement;
       const popUp = document.querySelector(`.popup-content`) as HTMLElement;
       const popupPadding = 24;
 
@@ -163,7 +165,10 @@ const router = new Router({
         top: target.offsetTop,
         behavior: 'smooth'
       });
-    } else if (!(to.name === 'Agenda' && from.name === 'AgendaView') && !(to.name === 'AgendaView' && from.name === 'Agenda')) {
+    } else if (
+      !(to.name === 'Agenda' && from.name === 'AgendaView') &&
+      !(to.name === 'AgendaView' && from.name === 'Agenda')
+    ) {
       return {
         x: 0,
         y: 0
@@ -175,6 +180,14 @@ const router = new Router({
 router.beforeEach((to: Route, from: Route, next: (...args: any[]) => any) => {
   if (from.path.startsWith('/activity') && to.path === '/activity') {
     next(false);
+  } else {
+    next();
+  }
+});
+
+router.beforeEach((to: Route, from: Route, next: (...args: any[]) => any) => {
+  if (to.path === '/sponsor') {
+    next('/team/sponsor');
   } else {
     next();
   }
