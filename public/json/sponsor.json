@@ -56,6 +56,14 @@
     "image": "hit.png"
   },
   {
+    "name": "美商超微半導體",
+    "slug": "amd",
+    "url": "https://www.amd.com/zh-hant",
+    "description": "AMD 是半導體創新領域的先鋒，致力於開發高性能計算和視覺化產品，以提供最好的解決方案。隨著科技蛻變， AMD 和台積電合作的7奈米處理器延續市場熱潮，屢獲新客戶採用並創下效能新里程碑，並廣泛應用於筆電、桌機、電競、遊戲、繪圖、AI企業應用和雲端商用的伺服器。我們非常興奮看到台灣新一代優秀學生的全力支持！",
+    "level": "level-1",
+    "image": "amd.png"
+  },
+  {
     "name": "COSCUP",
     "slug": "coscup",
     "url": "https://coscup.org/",
