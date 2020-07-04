@@ -136,6 +136,14 @@
     "image": "104.png"
   },
   {
+    "name": "合勤基金會",
+    "slug": "zyxel",
+    "url": "https://foundation.unizyx.com.tw/",
+    "description": "",
+    "level": "level-3",
+    "image": "zyxel.png"
+  },
+  {
     "name": "HackMD",
     "slug": "hackmd",
     "url": "https://hackmd.io/",
