@@ -120,6 +120,14 @@
     "image": "jptip.png"
   },
   {
+    "name": "祐生研究基金會",
+    "slug": "archilife",
+    "url": "https://www.archilife.org/",
+    "description": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。",
+    "level": "level-2",
+    "image": "archilife.png"
+  },
+  {
     "name": "趨勢科技",
     "slug": "trendmicro",
     "url": "https://careers.trendmicro.tw/",
