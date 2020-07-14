@@ -152,6 +152,14 @@
     "image": "zyxel.png"
   },
   {
+    "name": "財團法人台灣網路資訊中心",
+    "slug": "twnic",
+    "url": "https://twnic.tw/",
+    "description": "",
+    "level": "level-3",
+    "image": "twnic.png"
+  },
+  {
     "name": "HackMD",
     "slug": "hackmd",
     "url": "https://hackmd.io/",
