@@ -168,6 +168,14 @@
     "image": "twnic.png"
   },
   {
+    "name": "TeamT5 杜浦數位安全",
+    "slug": "t5",
+    "url": "https://teamt5.org/",
+    "description": "",
+    "level": "level-3",
+    "image": "t5.png"
+  },
+  {
     "name": "HackMD",
     "slug": "hackmd",
     "url": "https://hackmd.io/",
@@ -190,6 +198,14 @@
     "description": "",
     "level": "thank",
     "image": "ichef.png"
+  },
+  {
+    "name": "奧義智慧科技",
+    "slug": "cycarrier",
+    "url": "https://www.cycarrier.com/",
+    "description": "",
+    "level": "thank",
+    "image": "cycarrier.png"
   },
   {
     "name": "Linzin 阿哲",
