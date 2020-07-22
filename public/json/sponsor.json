@@ -64,6 +64,14 @@
     "image": "amd.png"
   },
   {
+    "name": "安華聯網科技",
+    "slug": "onwardsecurity",
+    "url": "https://www.onwardsecurity.com/",
+    "description": "安華聯網是連網產品資安合規解決方案的國際領導廠商，成立於2014年，除具備國際級的實驗室外，更自主開發自動化AI資安評估產品，擁有多國專利與國際獎項，可提供政府單位、IoT/IIoT、金融、電信等產業客戶取得資安認證，並發掘潛在資安威脅與弱點，保障重要資訊或產品安全，符合資安法規與產業標準的要求。",
+    "level": "level-1",
+    "image": "onwardsecurity.png"
+  },
+  {
     "name": "COSCUP",
     "slug": "coscup",
     "url": "https://coscup.org/",
