@@ -192,6 +192,14 @@
     "image": "t5.png"
   },
   {
+    "name": "Mozilla Taiwan",
+    "slug": "mozilla",
+    "url": "https://www.mozilla.org/",
+    "description": "",
+    "level": "level-3",
+    "image": "mozilla.png"
+  },
+  {
     "name": "HackMD",
     "slug": "hackmd",
     "url": "https://hackmd.io/",
