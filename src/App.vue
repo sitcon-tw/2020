@@ -88,8 +88,6 @@ export default class App extends Vue {
     window.matchMedia('(prefers-color-scheme: dark)').addListener(async () => {
       await this.detectSystemPrefersColorSchema();
     });
-
-    this.announcementCookieHook();
   }
 
   @Watch('$route')
