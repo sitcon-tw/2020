@@ -1,6 +1,6 @@
 <template>
   <div id="staff" class="staff-container">
-    <div class="staff-spotlight full-width-banner">
+    <div :class="`${!isInApp() || 'staff-spotlight--app'} staff-spotlight full-width-banner`">
       <p class="paragraph">SITCON 年會每年皆是許多志工奉獻與時間精神所舉辦；若你對參與 SITCON 年會的籌備有興趣，歡迎填寫表單，我們將在明年活動開始籌備時通知您！</p>
       <p class="paragraph">
         <a
@@ -14,7 +14,7 @@
     <div
       v-for="group in staffs"
       :key="`staff-group-${group.name}`"
-      class="staff-spotlight staff-group"
+      :class="`${!isInApp() || 'staff-spotlight--app'} staff-spotlight staff-group`"
     >
       <h2 class="staff-group-name font-bold">{{ group.name }}</h2>
       <p class="paragraph staff-group-intro">{{ group.description }}</p>
@@ -38,11 +38,19 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
+import { Getter } from 'vuex-class';
+
+import { AppMode } from '@/store/types/app';
 
 import staffData from '@/../public/json/staff.json';
 
 @Component
 export default class Staff extends Vue {
+  @Getter('mode', { namespace: 'app' }) private mode!: AppMode;
   private staffs = staffData;
+
+  private isInApp (): boolean {
+    return this.mode === AppMode.APP;
+  }
 }
 </script>
