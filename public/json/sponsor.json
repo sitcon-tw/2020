@@ -72,6 +72,14 @@
     "image": "onwardsecurity.png"
   },
   {
+    "name": "財團法人資訊工業策進會",
+    "slug": "iii",
+    "url": "https://www.iii.org.tw/",
+    "description": "",
+    "level": "level-1",
+    "image": "iii.png"
+  },
+  {
     "name": "COSCUP",
     "slug": "coscup",
     "url": "https://coscup.org/",
