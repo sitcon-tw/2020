@@ -1,6 +1,6 @@
 <template>
   <div id="sponsor">
-    <div class="sponsor-container">
+    <div :class="isInApp()? 'sponsor-container--app' : 'sponsor-container'">
       <div class="card-container individual-sponsor">
         <div class="card">
           <h2 class="font-black subtitle">我們歡迎個人贊助</h2>
@@ -65,6 +65,7 @@ import { Getter } from 'vuex-class';
 import _ from 'lodash';
 import { markdown } from 'markdown';
 
+import { AppMode } from '@/store/types/app';
 import { DeviceType } from '@/store/types/app';
 
 import sponsorData from '@/../public/json/sponsor.json';
@@ -80,6 +81,7 @@ interface SponsorData {
 
 @Component
 export default class Sponsor extends Vue {
+  @Getter('mode', { namespace: 'app' }) private mode!: AppMode;
   private sponsorLevelText = {
     'holder': '主辦單位',
     'co-holder': '共同主辦',
@@ -95,6 +97,10 @@ export default class Sponsor extends Vue {
 
   public mounted () {
     this.processSponsor();
+  }
+
+  private isInApp (): boolean {
+    return this.mode === AppMode.APP;
   }
 
   private processSponsor (): void {
