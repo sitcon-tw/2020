@@ -143,19 +143,19 @@
           </ul>
           <p class="paragraph">注意事項：</p>
           <ul>
-            <li>因應肺炎疫情，也為了你我的健康，上車之前請務必先行配戴口罩</li>
-            <li>請排隊配合工作人員量測體溫，並確認配妥口罩後即可上車 </li>
+            <li>因應肺炎疫情，也為了你我的健康，上車之前<span class="highlight">請務必先行配戴口罩</span></li>
+            <li>請排隊配合工作人員量測體溫，確認配妥口罩後即可上車 </li>
           </ul>
         </block>
 
 
         <block class="content">
           <h1 class="title font-bold"><span>二、報到</span></h1>
-          <p class="paragraph">年會將於早上 7 點半開放量體溫入場，早上 8 點開始報到，活動於 9 點準時開始。進入會場前，請務必先行配戴口罩。在到達會場後，連上年會現場的 Wi-Fi，即可用「OPass」App 進行報到，並到會場四樓領取迎賓袋。</p>
+          <p class="paragraph">年會將於早上 7 點半開放量體溫入場，早上 8 點開始報到，活動於 9 點準時開始。進入會場前，<span class="highlight">請務必配戴口罩</span>。在到達會場後，連上年會現場的 Wi-Fi，即可用「OPass」App 進行報到，並到會場四樓領取迎賓袋。</p>
           <p class="paragraph">請透過以下專屬連結下載、啟動 OPass：</p>
           <p class="paragraph"><a href="{{ App Link }}" class="font-bold" target="_blank"
               rel="noopener noreferrer">{{ App Link }}</a></p>
-          <p class="paragraph">（若您無法使用 App 報到，請向報到服務台的工作人員出示信上或您 KKTIX 的報到用 QR Code）</p>
+          <p class="paragraph">（若您無法使用 App 報到，請向服務台的工作人員出示本信或 KKTIX 提供的 QR Code 以完成手動報到。）</p>
           <p class="paragraph">請注意：迎賓袋內有您的識別證，必須領取並且配戴後才能進入會議廳內。持有學生票的朋友，也請於抵達領取攤位前備妥學生證或相關證明，以節省您寶貴的時間。</p>
           <p class="paragraph">10:00 後才完成報到者，恕不提供便當。</p>
         </block>
@@ -189,7 +189,7 @@
           <p class="paragraph">今年，我們製作了實用的線材收納袋與紀念 T-shirt，請記得帶足夠的鈔票，讓我們可以繼續辦活動下去！</p>
           <h2 class="subtitle font-black"><span>2. SITCON 導遊團</span></h2>
           <p class="paragraph">第一次參加研討會，總覺得眼花撩亂嗎？年會當天中午，有經驗的導遊們將帶大家拜訪工作人員、講者、社群攤位，實地了解 SITCON 的運作方式以及與會的各路夥伴！</p>
-          <p class="paragraph">有興趣參加 SITCON 導遊團的朋友，可以在下午 2 點 20 分到 R2 東側側門旁牆壁現場報名，導覽時間約 30 分鐘。</p>
+          <p class="paragraph">有興趣參加 SITCON 導遊團的朋友，可以在<span class="highlight">下午 2 點 20 分</span>到 R2 東側側門旁牆壁現場報名，導覽時間約 30 分鐘。</p>
           <h2 class="subtitle font-black"><span>3. Lightning Talk</span></h2>
           <p class="paragraph">Lightning Talk 中文譯為「閃電秀」，顧名思義即為「閃電一般短的演講」。有什麼想展現給全場所有人的技術、想法、甚至經驗談，都能把握這短短的 3 分鐘，在 SITCON
             2020 的大舞台上讓大家看見你！</p>
@@ -209,7 +209,7 @@
 
         <block class="content">
           <h1 class="title font-bold"><span>六、食物</span></h1>
-          <p class="paragraph">為了讓大家能愉快的交流，年會為各位準備了午餐與各式點心。場地內除了用餐區以外，皆禁止飲食，只能帶有蓋水瓶進出，並全程配戴口罩，還請各位多多配合了 (´・ω・`)</p>
+          <p class="paragraph">為了讓大家能愉快的交流，年會為各位準備了午餐與各式點心。<span class="highlight">場地內除了用餐區以外，皆禁止飲食，只能帶有蓋水瓶進出，並全程配戴口罩</span>，還請各位多多配合了 (´・ω・`)</p>
           <p class="paragraph">如果您有環保餐具，也請別忘記隨身攜帶，為地球盡一份心力。</p>
           <h2 class="subtitle font-black"><span>午餐</span></h2>
           <p class="paragraph">美味的午餐將從 <span class="highlight">上午 11 點</span> 開始，於 4F 國際會議廳（R0）後方兩側的轉角處發放；素食則在 4F 北側領取，請各位不要跑錯囉！</p>
