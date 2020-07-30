@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <subject>SITCON 2020 行前通知信</subject>
-    <preview>很高興能在 SITCON 2020 看到你！年會即將在本週六（8/8）揭開序幕，我們特別整理了一些實用的資訊，還請詳細閱讀；為始活動報到順利，請先行下載安裝「SITCON 通關」App —
+    <preview>很高興能在 SITCON 2020 看到你！年會即將在下週六（8/8）揭開序幕，我們特別整理了一些實用的資訊，還請詳細閱讀；為始活動報到順利，請先行下載安裝「SITCON 通關」App —
       若您無法順利閱讀此信件，請參閱線上版本：https://sitcon.org/2020/mail/SITCON-2020.html</preview>
-    <base href="https://sitcon.org/2020/mail/">
+    <base href="https://sitcon.org/2020/mail/SITCON-2020.html">
     <style>
       div.container {
         padding: 16px;
@@ -117,7 +117,7 @@
           <p class="paragraph font-bold bigger">Hi {{ nickname }}，</p>
           <p class="paragraph">若您無法順利閱讀此信件，請參閱 <a href="https://sitcon.org/2020/mail/SITCON-2020.html" target="_blank"
               rel="noopener noreferrer">線上版本</a>。</p>
-          <p class="paragraph">很高興能在 SITCON 2020 看到你！年會即將在本週六（8/8）揭開序幕，我們特別整理了一些實用的資訊，還請詳細閱讀：</p>
+          <p class="paragraph">很高興能在 SITCON 2020 看到你！年會即將在下週六（8/8）揭開序幕，我們特別整理了一些實用的資訊，還請詳細閱讀：</p>
         </block>
 
 
@@ -224,9 +224,9 @@
 
         <block class="content">
           <h1 class="title font-bold"><span>七、網路</span></h1>
-          <p class="paragraph">現場可使用年會提供的無線網路，SSID 為「SITCON 2020」，密碼是「20200328」。</p>
+          <p class="paragraph">現場可使用年會提供的無線網路，SSID 為「SITCON 2020」，密碼是「20200808」。</p>
           <p class="paragraph">請勿於會場私自架設無線基地台（AP），或進行任何干擾公眾網路之行為。</p>
-          <p class="paragraph">若您需要使用個人 4G 行動網路熱點，請使用 USB 或藍芽方式分享網路連線。</p>
+          <p class="paragraph">若您需要使用個人 5G 行動網路熱點，請使用 USB 或藍芽方式分享網路連線。</p>
         </block>
 
 
