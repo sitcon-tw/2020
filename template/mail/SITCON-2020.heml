@@ -109,66 +109,123 @@
     <container class="container">
       <img class="banner top" src="./assets/mailHead.png" infer="retina" />
       <block class="wrapper">
+
         <block class="content">
           <p class="paragraph font-bold bigger">Hi {{ nickname }}，</p>
           <p class="paragraph">若您無法順利閱讀此信件，請參閱 <a href="https://sitcon.org/2020/mail/SITCON-2020.html" target="_blank"
               rel="noopener noreferrer">線上版本</a>。</p>
           <p class="paragraph">很高興能在 SITCON 2020 看到你！年會即將在本週六（8/8）揭開序幕，我們特別整理了一些實用的資訊，還請詳細閱讀：</p>
         </block>
+
+
         <block class="content">
           <h1 class="title font-bold"><span>一、交通</span></h1>
+          <h2 class="subtitle font-black"><span>1. 活動地點</span></h2>
           <p class="paragraph">年會地點位於中央研究院人文社會科學館（台北市南港區研究院路二段 128 號），詳細位置及交通方式可參考 <a
               href="https://sitcon.org/2020/traffic" target="_blank" rel="noopener noreferrer">SITCON 2020 官方網站</a>
-            或中研院院區圖。</p>
+            或中研院<a href="https://gis.sinica.edu.tw/asmap/sinica_campus_map.png" target="_blank" rel="noopener noreferrer">院區圖</a>。</p>
+          
+          <h2 class="subtitle font-black"><span>2. 會眾交通車</span></h2>
+          <p class="paragraph">今年我們提供了交通車來方便會眾來往於南港展覽館捷運站與中研院的活動場地之間，詳細資訊如下提供給你參考：</p>
+          <p class="paragraph">交通車時間：</p>
+          <ul>
+            <li>去程（往中研院） 07:30 ~ 10:30</li>
+            <li>回程（往捷運站） 16:30 ~ 18:00 </li>
+          </ul>
+          <p class="paragraph">上車地點：</p>
+          <ul>
+            <li>去程（往中研院）南港展覽館捷運站 2A 出口前公車等候區</li>
+            <li>回程（往捷運站）中研院人文社會科學館大門前</li>
+          </ul>
+          <p class="paragraph">注意事項：</p>
+          <ul>
+            <li>因應肺炎疫情，也為了你我的健康，上車之前請務必先行配戴口罩</li>
+            <li>請排隊配合工作人員量測體溫，並確認配妥口罩後即可上車 </li>
+          </ul>
         </block>
+
+
         <block class="content">
           <h1 class="title font-bold"><span>二、報到</span></h1>
-          <p class="paragraph">年會將於早上 8 點半開始報到，並於 9 點準時開始。在到達會場後，連上年會現場的 Wi-Fi，即可用「OPass」App 進行報到，並到會場四樓領取迎賓袋。</p>
+          <p class="paragraph">年會將於早上 7 點半開放量體溫入場，早上 8 點開始報到，活動於 9 點準時開始。進入會場前，請務必先行配戴口罩。在到達會場後，連上年會現場的 Wi-Fi，即可用「OPass」App 進行報到，並到會場四樓領取迎賓袋。</p>
           <p class="paragraph">請透過以下專屬連結下載、啟動 OPass：</p>
           <p class="paragraph"><a href="{{ App Link }}" class="font-bold" target="_blank"
               rel="noopener noreferrer">{{ App Link }}</a></p>
-          <p class="paragraph">（若您無法使用 App 報到，請向報到櫃檯的工作人員出示您 KKTIX 的報到用 QR Code）</p>
+          <p class="paragraph">（若您無法使用 App 報到，請向報到服務台的工作人員出示信上或您 KKTIX 的報到用 QR Code）</p>
           <p class="paragraph">請注意：迎賓袋內有您的識別證，必須領取並且配戴後才能進入會議廳內。持有學生票的朋友，也請於抵達領取攤位前備妥學生證或相關證明，以節省您寶貴的時間。</p>
           <p class="paragraph">10:00 後才完成報到者，恕不提供便當。</p>
         </block>
+
         <block class="content">
-          <h1 class="title font-bold"><span>三、活動</span></h1>
-          <p class="paragraph">除了一整天精彩的議程，今年的 SITCON 也有許多有趣的活動可以參加！不論是抓緊機會表現自己，或是想在年會認識新朋友，都千萬別錯過囉。</p>
-          <h2 class="subtitle font-black"><span>紀念品販售</span></h2>
-          <p class="paragraph">今年會製作小石刺繡布章與神秘紙膠帶，同時也會有小石金屬徽章、SITCON 鑰匙圈、SITCON 紀念 T-shirt 與 SITCON 提袋等，歡迎大家來把小石帶回家～</p>
-          <h2 class="subtitle font-black"><span>SITCON 導遊團</span></h2>
+          <h1 class="title font-bold"><span>三、關於嚴重特殊傳染性肺炎（COVID-19）疫情</span></h1>
+          <p class="paragraph">因應近期嚴重特殊傳染性肺炎（COVID-19）疫情，為了保護參與 SITCON 2020 年會的全體人員，本團隊與中央研究院人文社會科學館依據中央疫情指揮中心（CECC）所發布的《「COVID-19 (武漢肺炎)」防疫新生活運動：實聯制措施指引》，於 SITCON 2020 年會現場實施「實聯制」。「實聯制」的實施對象，為年會現場「實際入場者」，與購票時所填寫的資訊互相獨立。您於購票時所填寫的資訊，將不會用於實聯制；購票後，您仍可以於活動前，任意轉讓票券給其他人使用，僅需於本團隊通知與會者登錄實聯制資料時，通知票券轉讓對象完成登錄。</p>
+          <p class="paragraph">在年會當日（8/8）報到之前，所有與會者皆須登錄「姓名/暱稱」、「聯絡電話」、「2020 年 8 月 8 日當天，本人是否需居家檢疫或居家隔離」。若不同意提供個人資料，將不得進入 SITCON 2020 會場。下列二種登錄方式擇一完成即可：</p>
+          <ul>
+            <li>預計使用 OPass 報到：安裝 OPass 後，在左側選單點選「健康聲明書」，登錄「姓名/暱稱」、「聯絡電話」、「2020 年 8 月 8 日當天，本人是否需居家隔離或居家檢疫」。</li>
+            <li>預計使用 KKTIX 報到：年會當日報到前，於場外領取紙本登錄表，填寫「姓名/暱稱」、「聯絡電話」、「2020 年 8 月 8 日當天，本人是否需居家隔離或居家檢疫」。</li>
+          </ul>
+
+          <p class="paragraph">以下是針對 SITCON 2020 年會實施「實聯制」之個人資料使用說明：</p>
+          <ul>
+            <li>蒐集機關：SITCON 學生計算機年會籌備團隊與中央研究院人文社會科學館</li>
+            <li>蒐集之目的：防疫目的，依據「個人資料保護法之特定目的及個人資料之類別」為代號 012 公共衛生或傳染病防治之特定目的，且不得為目的外利用。 </li>
+            <li>蒐集之個人資料項目：「姓名/暱稱」、「聯絡電話」、「2020 年 8 月 8 日當天，本人是否需居家檢疫或居家隔離」。 </li>
+            <li>個人資料利用之期間：自 2020 年 7 月 30 日起至 2020 年 8 月 27 日止。屆期即將個人資料予以刪除或銷毀。 </li>
+            <li>個人資料利用之對象及方式：為防堵疫情而有必要時，得提供衛生主管機關依傳染病防治法等規定進行疫情調查及聯繫使用。 </li>
+            <li>當事人就其個人資料，得依個人資料保護法規定，透過聯絡 privacy@sitcon.org，向本機關行使權利，包含：查詢或請求閱覽、請求製給複製本、請求補充或更正、請求停止處理或利用、請求刪除。 </li>
+            <li>當事人若不同意提供個人資料，不得進入 SITCON 2020 會場。 </li>
+          </ul>
+        </block>
+
+
+        <block class="content">
+          <h1 class="title font-bold"><span>四、年會活動</span></h1>
+          <p class="paragraph">除了一整天<a href="https://sitcon.org/2020/agenda" target="_blank" rel="noopener noreferrer">精彩的議程</a>，今年的 SITCON 也有許多有趣的活動可以參加！不論是抓緊機會表現自己，或是想在年會認識新朋友，都千萬別錯過囉。</p>
+          <h2 class="subtitle font-black"><span>1. 紀念品販售</span></h2>
+          <p class="paragraph">今年，我們製作了實用的線材收納袋與紀念 T-shirt，請記得帶足夠的鈔票，讓我們可以繼續辦活動下去！</p>
+          <h2 class="subtitle font-black"><span>2. SITCON 導遊團</span></h2>
           <p class="paragraph">第一次參加研討會，總覺得眼花撩亂嗎？年會當天中午，有經驗的導遊們將帶大家拜訪工作人員、講者、社群攤位，實地了解 SITCON 的運作方式以及與會的各路夥伴！</p>
-          <p class="paragraph">有興趣參加 SITCON 導遊團的朋友，可以在下午 2 點 20 分及 2 點 30 分到服務台現場報名，共有兩團，每次導覽約 30 分鐘。</p>
-          <h2 class="subtitle font-black"><span>Lightning Talk</span></h2>
+          <p class="paragraph">有興趣參加 SITCON 導遊團的朋友，可以在下午 2 點 20 分到 R2 東側側門旁牆壁現場報名，導覽時間約 30 分鐘。</p>
+          <h2 class="subtitle font-black"><span>3. Lightning Talk</span></h2>
           <p class="paragraph">Lightning Talk 中文譯為「閃電秀」，顧名思義即為「閃電一般短的演講」。有什麼想展現給全場所有人的技術、想法、甚至經驗談，都能把握這短短的 3 分鐘，在 SITCON
             2020 的大舞台上讓大家看見你！</p>
           <p class="paragraph">Lightning Talk 安排於年會閉幕前，於國際會議廳 (R0) 進行。當天上午 10:00 後會在 3F 白板區開放報名，名額有限、先搶先贏。</p>
-          <h2 class="subtitle font-black"><span>真．實境矩陣</span></h2>
-          <p class="paragraph">SITCON 的參與者來自各地，今年更有來自多國、身懷絕技的業界與社群夥伴共襄盛舉。除了把握時間好好與他們聊聊外，據說每個攤位都隱藏了不為人知的秘密……？別忘了在年會當天打開
-            OPass「真．實境矩陣」，讓不同攤位的高手和你的 QR Code 能量連結，就有機會兌換限量年會紀念品。連接你的節點，拯救我們的世界！ヽ(✿ﾟ▽ﾟ)ノ</p>
+          <h2 class="subtitle font-black"><span>4. #define matrix</span></h2>
+          <p class="paragraph">SITCON 的參與者來自各地，今年更有來自身懷絕技的業界與社群夥伴共襄盛舉。除了把握時間好好與他們聊聊外，據說每個攤位都隱藏了不為人知的秘密……？別忘了在年會當天打開 OPass「#define matrix」，讓不同攤位的高手和你的 QR Code 能量連結，就有機會兌換限量年會紀念品。完成你的 Array，拯救我們的世界ヽ(✿ﾟ▽ﾟ)ノ</p>
         </block>
+
+
         <block class="content">
-          <h1 class="title font-bold"><span>四、共筆與議程線上討論區</span></h1>
+          <h1 class="title font-bold"><span>五、共筆與議程線上討論區</span></h1>
           <p class="paragraph">
             今年年會延續往年傳統，為各議程開設「共筆」與「議程線上討論區（Sli.do）」，共筆供聽眾一起編輯議程筆記，議程線上討論區則供講者與各位聽眾進行即時交流。各連結將公告於年會官方網站與
             OPass。您可以在議程中隨時使用議程線上討論區匿名提問，講者能自由選擇時間解答及互動。籌辦團隊雖開設此平台，但並非強制所有與會者及講者必須使用，僅供各位利用參考。</p>
         </block>
+
+
         <block class="content">
-          <h1 class="title font-bold"><span>五、食物</span></h1>
-          <p class="paragraph">為了讓大家能愉快的交流，年會為各位準備了午餐與各式點心。會議廳內皆禁止飲食，只能帶有蓋水瓶進出，還請各位多多配合了 (´・ω・`)</p>
+          <h1 class="title font-bold"><span>六、食物</span></h1>
+          <p class="paragraph">為了讓大家能愉快的交流，年會為各位準備了午餐與各式點心。場地內除了用餐區以外，皆禁止飲食，只能帶有蓋水瓶進出，並全程配戴口罩，還請各位多多配合了 (´・ω・`)</p>
+          <p class="paragraph">如果您有環保餐具，也請別忘記隨身攜帶，為地球盡一份心力。</p>
           <h2 class="subtitle font-black"><span>午餐</span></h2>
-          <p class="paragraph">美味的午餐將從 <span class="highlight">上午 11 點 50 分</span> 開始，於 4F 國際會議廳（R0）後方兩側的轉角處發放；素食則在 3F
-            服務台領取，請各位不要跑錯囉！</p>
+          <p class="paragraph">美味的午餐將從 <span class="highlight">上午 11 點</span> 開始，於 4F 國際會議廳（R0）後方兩側的轉角處發放；素食則在 4F 北側領取，請各位不要跑錯囉！</p>
+          <p class="paragraph">領餐時，請準備好您的 OPass App，等待工作人員指示後，按下按鈕領取午餐。（若您報到時未使用 App，請出示手動報到時取得的午餐券）</p>
           <h2 class="subtitle font-black"><span>點心</span></h2>
           <p class="paragraph"><span class="highlight">下午 3 點</span> 開始，四樓兩側的社群攤位走廊上將提供精緻茶點，您可以在享用下午茶的同時，與現場的會眾以及攤位交流。
           </p>
+          <h2 class="subtitle font-black"><span>冰淇淋</span></h2>
+          <p class="paragraph">今年在 4F 南側會有個神祕攤位默默發放著冰淇淋哦，歡迎各位在議程間的短暫休息時，多去吃點冰淇淋補充足夠的糖分！</p>
         </block>
+
+
         <block class="content">
-          <h1 class="title font-bold"><span>六、網路</span></h1>
+          <h1 class="title font-bold"><span>七、網路</span></h1>
           <p class="paragraph">現場可使用年會提供的無線網路，SSID 為「SITCON 2020」，密碼是「20200328」。</p>
           <p class="paragraph">請勿於會場私自架設無線基地台（AP），或進行任何干擾公眾網路之行為。</p>
           <p class="paragraph">若您需要使用個人 4G 行動網路熱點，請使用 USB 或藍芽方式分享網路連線。</p>
         </block>
+
+
         <block class="content">
           <h1 class="title font-bold"><span>其他注意事項</span></h1>
           <p class="paragraph">年會當天的線上聊天室十分精彩，您可以和其他與會者抬槓、甚至找到志同道合的夥伴！除了加入 Telegram <a href="https://t.me/SITCONgeneral"
@@ -178,6 +235,8 @@
               rel="noopener noreferrer">SITCON 行為準則</a>，讓大家都能開心的在 SITCON 齊聚一堂，彼此激盪、傳承、啟發。</p>
           <p class="paragraph">感謝您讀完這份行前簡介，期待在 SITCON 2020 看到你囉！</p>
         </block>
+
+
         <block class="content">
           <p class="paragraph">SITCON 2020 籌備團隊</p>
           <img class="signature" src="./assets//signature.png" alt="" />
