@@ -26,6 +26,9 @@
           <a @click="$router.push({ name: 'Home', query: { popUp: 'announcement' } })">
             <span>大會公告</span>
           </a>
+          <a href="https://hackmd.io/@SITCON/2020/" target="_blank" rel="noopener">
+            <span>線上共筆</span>
+          </a>
           <a href="https://sitcon.kktix.cc/events/sitcon2020" target="_blank" rel="noopener">
             <span>免費報名</span>
           </a>
