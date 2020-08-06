@@ -10,7 +10,8 @@
     <div id="contact" class="footer">
       <p>
         <span class="font-bold">聯絡我們</span>
-        <span class="font-bold"><a href="mailto:contact@sitcon.org" class="font-bold">contact@sitcon.org</a></span>
+        合作聯繫：<span class="font-bold"><a href="mailto:contact@sitcon.org" class="font-bold">contact@sitcon.org</a></span>
+        票務問題：<span class="font-bold"><a href="mailto:ticket@sitcon.org" class="font-bold">ticket@sitcon.org</a></span>
       </p>
     </div>
     <div id="past" class="footer">

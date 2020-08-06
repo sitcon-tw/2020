@@ -159,7 +159,7 @@
             <li>
               <span>
                 Q2.　若有其他問題應該如何詢問？<br>
-                A2.　有任何問題都歡迎寄信至 <a href="mailto:contact@sitcon.org">contact@sitcon.org</a> 喔！
+                A2.　有任何問題都歡迎寄信至 <a href="mailto:ticket@sitcon.org">ticket@sitcon.org</a> 喔！
               </span>
             </li>
           </ul>
