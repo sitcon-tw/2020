@@ -27,7 +27,7 @@ const content = (data: any): string => `
 }
 </script>
 <h1 class="title font-black">${data.zh.title}</h1>
-<p class="paragraph"><a class="slido" href="${data.qa}" target="_blank" rel="noopener noreferrer"">Sli.Do 線上QA</a></p>
+<p class="paragraph"><a class="slido" href="${data.qa}" target="_blank" rel="noopener noreferrer"">Sli.do 線上 QA</a></p>
 <p class="paragraph">${contentParser(data.zh.description)}</p>
 ${data.speakers.map(((speaker: ISpeaker) => (speakerContent(speaker)))).join('')}
 `;
