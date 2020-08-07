@@ -168,6 +168,14 @@
             margin-bottom: 1rem;
           }
         }
+
+        a.slido {
+          border-radius: 5px;
+          padding: 3px 11px;
+          background-color: $black;
+          color: $white;
+          font-size: 12px;
+        }
       }
 
       a {
