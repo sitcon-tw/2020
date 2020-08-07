@@ -18,13 +18,11 @@
       position: relative;
       width: 72%;
     }
+
     width: 100%;
     margin-bottom: 60px;
-
-    &-3f,
-    &-4f {
-      margin-left: 2.3%;
-    }
+    background-color: $white;
+    border-radius: 20px;
 
     .floor-container {
       background: $black;
