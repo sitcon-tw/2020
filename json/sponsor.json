@@ -1,0 +1,274 @@
+[
+  {
+    "name": "SITCON 學生計算機年會籌備團隊",
+    "slug": "sitcon",
+    "url": "https://hackfoldr.sitcon.org",
+    "description": "SITCON 學生計算機年會 (Students’ Information Technology Conference) 是一個由各校同學於網路串聯發起，鼓勵自發學習、切磋成長的學生社群。\n\n因為熱愛資訊領域、知道尋找興趣相近夥伴的不容易，籌備團隊從 2013 年以來，便致力於連結對資訊科技相關領域有興趣的學生們，透過每年三月的研討會分享彼此所學，在每週的定期聚交流精進。發展至今，SITCON 除了是東亞最大的學生資訊社群與研討會，各地參與者也藉由夏令營、一小時學程式 (Hour of Code)、黑客松等不同的面向活動，推廣創新、實作、教學相長、以及開源貢獻的精神與理念；在台灣與海外各地，都有 SITCON 參與者的身影。",
+    "level": "holder",
+    "image": "sitcon.png"
+  },
+  {
+    "name": "中央研究院資訊科學研究所",
+    "slug": "iis",
+    "url": "https://www.iis.sinica.edu.tw/",
+    "description": "中央研究院資訊科學研究所於 1977 年開始設立籌備處，歷經五年籌備，於 1982 年 9 月正式成立研究所，是中央研究院數理組十一個單位之一。目前編制內有 39 位研究人員，另外有 29 位博士後研究學者，將近 300 位專任之資訊技術人員與非全時之研究助理，支援資訊領域之研究與系統之開發。「件件工作，反映自我，凡經我手，必為佳作」是全體同仁一致秉持的工作信念，重視工作之卓越品質，發揮最佳綜效之團隊精神。",
+    "level": "co-holder",
+    "image": "iis.png"
+  },
+  {
+    "name": "財團法人開放文化基金會",
+    "slug": "ocf",
+    "url": "https://ocf.tw",
+    "description": "開放文化基金會成立於 2014 年，由多個開源社群及活動組織共同發起，希望協助台灣蓬勃的開放社群，進一步促進開放源碼、開放資料、開放硬體等自由精神，能更廣泛的於各領域中應用，同時也協助政府、企業及非政府組織更能了解開源軟體的優勢、開放資料的重要，進而推廣開放協作的文化。 2015 年起我們除了支援本地社群主辦多場中大型活動，也和英國代表處、美國在台協會及世界銀行等單位共同舉辦各種主題講座，深耕台灣的開放文化並與國際交流。",
+    "level": "co-holder",
+    "image": "ocf.png"
+  },
+  {
+    "name": "智慧創新跨域人才培育計畫",
+    "slug": "itsa",
+    "url": "https://www.itsa.org.tw/",
+    "description": "主要推動重點在協助國內大專校院建立多元培育管道，以解決產業界對軟體與服務人才質與量需求日益殷切的問題。\n\n各大專校院⋯⋯透過教育部推廣計畫的補助機制，導入本計畫推動團隊所發展的創作社群服務平臺、線上協同學習平臺(e-tutor)及學習資源服務平臺，已逐步建立創新的培育模式，為國內軟體專業人才培育系所注入向上提升的助力，是國內目前培養軟體人才的主力之一。",
+    "level": "co-organizer",
+    "image": "itsa.png"
+  },
+  {
+    "name": "KlickKlack",
+    "slug": "klickklack",
+    "url": "https://www.kkco.com.tw/",
+    "description": "KlickKlack Communications 提供專業的有線與無線網路服務，使人與人間的通訊落差降到最低。團隊已服務上百場活動，包含台灣地區最大的線上遊戲、網路直播、資訊社群、產品發表會、演唱會、會場展覽與電音派對等。整合網路監控、系統交叉備援、即時廣告互動，量身為客戶打造優質的網路服務體驗。",
+    "level": "level-1",
+    "image": "klickklack.png"
+  },
+  {
+    "name": "Google Developers ",
+    "slug": "googledevelopers",
+    "url": "https://developers.google.com/community",
+    "description": " Google Developers inspire developers with the possibilities of Google technology.\n\nWe use a combination of technical advocacy, community & programs, and great docs & content to help developers at scale.",
+    "level": "level-1",
+    "image": "google_developers.png"
+  },
+  {
+    "name": "社團法人台灣駭客協會",
+    "slug": "hit",
+    "url": "https://www.hacker.org.tw/",
+    "description": "台灣駭客年會 (Hacks In Taiwan Conference, HITCON) 致力於推廣資訊安全，自 2005 年成立迄今亦成立「社團法人台灣駭客協會」(HIT)，透過結合時事來探討全世界的資安議題，引入國內外專業的教育訓練課程，協助政府、企業、民間建立友善的溝通管道與提升培訓資源，引領世界資安技術的脈動，以期臺灣的資安能量更加發光發熱。",
+    "level": "level-1",
+    "image": "hit.png"
+  },
+  {
+    "name": "美商超微半導體",
+    "slug": "amd",
+    "url": "https://www.amd.com/zh-hant",
+    "description": "AMD 是半導體創新領域的先鋒，致力於開發高性能計算和視覺化產品，以提供最好的解決方案。隨著科技蛻變， AMD 和台積電合作的7奈米處理器延續市場熱潮，屢獲新客戶採用並創下效能新里程碑，並廣泛應用於筆電、桌機、電競、遊戲、繪圖、AI企業應用和雲端商用的伺服器。我們非常興奮看到台灣新一代優秀學生的全力支持！",
+    "level": "level-1",
+    "image": "amd.png"
+  },
+  {
+    "name": "安華聯網科技",
+    "slug": "onwardsecurity",
+    "url": "https://www.onwardsecurity.com/",
+    "description": "安華聯網是連網產品資安合規解決方案的國際領導廠商，成立於2014年，除具備國際級的實驗室外，更自主開發自動化AI資安評估產品，擁有多國專利與國際獎項，可提供政府單位、IoT/IIoT、金融、電信等產業客戶取得資安認證，並發掘潛在資安威脅與弱點，保障重要資訊或產品安全，符合資安法規與產業標準的要求。",
+    "level": "level-1",
+    "image": "onwardsecurity.png"
+  },
+  {
+    "name": "財團法人資訊工業策進會 資安科技研究所",
+    "slug": "iii",
+    "url": "https://www.iii.org.tw/",
+    "description": "資安科技研究所為財團法人資訊工業策進會所屬的研發部門之一，長期專注於資通訊安全領域之政策規劃、推動及新技術研發等，均有重大成果。近幾年來，積極參與國際資安相關組織之合作與交流，以提升技術與專業水準，並提供資安相關之顧問輔導與技術服務，祈能協助各行各業強化資安防護能力，進而增進營運效率與競爭力。",
+    "level": "level-1",
+    "image": "iii.png"
+  },
+  {
+    "name": "COSCUP",
+    "slug": "coscup",
+    "url": "https://coscup.org/",
+    "description": "COSCUP 是由台灣開放原始碼社群聯合推動的研討會，希望藉由每一屆的年度會議，讓全球的 FLOSS 愛好者齊聚一堂。無論您是開放原始碼的開發者、推廣者、使用者、還是想了解軟體的新手，都歡迎您來參加開源人年會。",
+    "level": "level-2",
+    "image": "coscup.png"
+  },
+  {
+    "name": "好苙整合設計",
+    "slug": "hoholistic",
+    "url": "https://www.hoholistic.com/",
+    "description": "好苙整合設計，前身為民匠實業，致力於國際級精品.商業空間.公共空間及高端智慧住宅的設計及施工實務整合，30年以上的經驗累積，為客戶提供最佳的五感設計體驗!",
+    "level": "level-2",
+    "image": "hoholistic.png"
+  },
+  {
+    "name": "AI Labs",
+    "slug": "ailabs",
+    "url": "https://ailabs.tw/",
+    "description": "台灣人工智慧實驗室致力於醫療、智慧城市、人機介面三大領域的AI發展。我們徵求各方人才，一起為世界定義人工智能的未來體驗。",
+    "level": "level-2",
+    "image": "ailabs.png"
+  },
+  {
+    "name": "ZUSO Generation",
+    "slug": "zuso",
+    "url": "https://zuso.ai/",
+    "description": "ZUSO Generation為發跡於中台灣的資安團隊，堅信沒有做不到的資安防線「最好的防禦是攻擊」。客製化服務為企業規劃最適合方案，在風險中企圖為企業突破重圍找回企業主場優勢。",
+    "level": "level-2",
+    "image": "zuso.png"
+  },
+  {
+    "name": "台灣 Python 年會",
+    "slug": "pycontw",
+    "url": "https://pycon.tw/",
+    "description": "台灣 Python 年會（PyCon Taiwan）是由 Python Software Foundation 授權、台灣 Python 社群自發舉辦的年度 Python 交流大會。透過提供在地與在地、在地與國際 Python 社群間交流的平台來回饋台灣 Python 社群。",
+    "level": "level-2",
+    "image": "pycontw.png"
+  },
+  {
+    "name": "Dcard 狄卡科技",
+    "slug": "dcard",
+    "url": "https://join.dcard.today/",
+    "description": "Dcard 是全台灣最大的匿名社群，我們致力於打造一個讓分享更自由、更讓每個人都能找到共鳴的平台。我們提供的社群服務，目前擁有每個月一千五百萬的不重複訪客與十五億以上的瀏覽量。",
+    "level": "level-2",
+    "image": "dcard.png"
+  },
+  {
+    "name": "JPTIP 日本人才顧問",
+    "slug": "jptip",
+    "url": "https://www.jptip.com.tw/",
+    "description": "協助日本知名企業在台徵才，提供履歷書修改、面試指導服務。輔導台灣學生申請赴日留遊學或打工度假，協助安排在日住宿地點，提供赴日前日語進修課程。",
+    "level": "level-2",
+    "image": "jptip.png"
+  },
+  {
+    "name": "祐生研究基金會",
+    "slug": "archilife",
+    "url": "https://www.archilife.org/",
+    "description": "祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。",
+    "level": "level-2",
+    "image": "archilife.png"
+  },
+  {
+    "name": "KOKO 數位銀行",
+    "slug": "koko",
+    "url": "https://www.kokobank.com/bank",
+    "description": "KOKO是台語「錢」的暱稱，發音：口摳。KOKO數位銀行為國泰世華銀行的子品牌，致力於推出創新金融服務與產品，滿足並貼近年輕人生活。",
+    "level": "level-2",
+    "image": "koko.png"
+  },
+  {
+    "name": "KKBOX",
+    "slug": "kkbox",
+    "url": "https://www.kkbox.com/tw/tc/info/index.html",
+    "description": "亞洲頂尖數位音樂服務品牌\n\n擁有四千萬首豐富音樂曲庫，還提供細緻且個人化的音樂內容。線上一起聽及獨家直播演唱會讓愛追星的你跟偶像隨時隨地零距離！立即啟動專屬你的音樂體驗，享受無窮的聽音樂樂趣！",
+    "level": "level-2",
+    "image": "kkbox.png"
+  },
+  {
+    "name": "Panasonic Cyber Security Lab",
+    "slug": "panasonic",
+    "url": "https://www.panasonic.com/tw/",
+    "description": "基於 Panasonic 對於產品資訊安全的重視，因而創立 Cyber Security Lab，其目的為對旗下物聯網產品的資安能有更深入的研究。",
+    "level": "level-2",
+    "image": "panasonic.png"
+  },
+  {
+    "name": "趨勢科技",
+    "slug": "trendmicro",
+    "url": "https://careers.trendmicro.tw/",
+    "description": "",
+    "level": "level-3",
+    "image": "trendmicro.png"
+  },
+  {
+    "name": "一零四資訊科技",
+    "slug": "104",
+    "url": "https://corp.104.com.tw/",
+    "description": "",
+    "level": "level-3",
+    "image": "104.png"
+  },
+  {
+    "name": "合勤基金會",
+    "slug": "zyxel",
+    "url": "https://foundation.unizyx.com.tw/",
+    "description": "",
+    "level": "level-3",
+    "image": "zyxel.png"
+  },
+  {
+    "name": "財團法人台灣網路資訊中心",
+    "slug": "twnic",
+    "url": "https://twnic.tw/",
+    "description": "",
+    "level": "level-3",
+    "image": "twnic.png"
+  },
+  {
+    "name": "TeamT5 杜浦數位安全",
+    "slug": "t5",
+    "url": "https://teamt5.org/",
+    "description": "",
+    "level": "level-3",
+    "image": "t5.png"
+  },
+  {
+    "name": "Mozilla Taiwan",
+    "slug": "mozilla",
+    "url": "https://mozilla-next.com/",
+    "description": "",
+    "level": "level-3",
+    "image": "mozilla.png"
+  },
+  {
+    "name": "Amazon Web Services",
+    "slug": "aws",
+    "url": "https://aws.amazon.com/",
+    "description": "",
+    "level": "level-3",
+    "image": "aws.png"
+  },
+  {
+    "name": "HackMD",
+    "slug": "hackmd",
+    "url": "https://hackmd.io/",
+    "description": "",
+    "level": "thank",
+    "image": "hackmd.png"
+  },
+  {
+    "name": "中央研究院資訊服務處",
+    "slug": "its",
+    "url": "https://its.sinica.edu.tw/",
+    "description": "",
+    "level": "thank",
+    "image": "its.png"
+  },
+  {
+    "name": "iCHEF 資廚",
+    "slug": "ichef",
+    "url": "https://www.ichefpos.com/",
+    "description": "",
+    "level": "thank",
+    "image": "ichef.png"
+  },
+  {
+    "name": "奧義智慧科技",
+    "slug": "cycarrier",
+    "url": "https://www.cycarrier.com/",
+    "description": "",
+    "level": "thank",
+    "image": "cycarrier.png"
+  },
+  {
+    "name": "Linzin 阿哲",
+    "slug": "linzin",
+    "url": "https://www.youtube.com/channel/UC0oosHZ4k1o-zNT21gg5O7A",
+    "description": "",
+    "level": "media",
+    "image": "linzin.png"
+  },
+  {
+    "name": "Blockchain News",
+    "slug": "blockchainnews",
+    "url": "https://blockchain.news/",
+    "description": "",
+    "level": "media",
+    "image": "blockchainnews.png"
+  }
+]
