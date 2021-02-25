@@ -160,10 +160,10 @@
     "image": "kkbox.png"
   },
   {
-    "name": "Panasonic",
+    "name": "Panasonic Cyber Security Lab",
     "slug": "panasonic",
-    "url": "",
-    "description": "",
+    "url": "https://www.panasonic.com/tw/",
+    "description": "基於 Panasonic 對於產品資訊安全的重視，因而創立 Cyber Security Lab，其目的為對旗下物聯網產品的資安能有更深入的研究。",
     "level": "level-2",
     "image": "panasonic.png"
   },
